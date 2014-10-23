@@ -1,4 +1,3 @@
-Yay
 Symfony Standard Edition
 ========================
 
