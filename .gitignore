@@ -1,11 +1,9 @@
-/web/bundles/
-/app/bootstrap.php.cache
-/app/cache/*
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
-/app/phpunit.xml
-/build/
-/vendor/
-/bin/
-/composer.phar
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# Ignore SimpleTest multi-site environment.
+sites/simpletest
