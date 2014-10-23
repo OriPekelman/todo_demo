@@ -13,6 +13,7 @@ toolstack: "php:symfony"
 # side is in the form `<service name>:<endpoint name>`.
 relationships:
     database: "mysql:mysql"
+
 # The configuration of app when it is exposed to the web.
 web:
     # The public directory of the app, relative to its root.
